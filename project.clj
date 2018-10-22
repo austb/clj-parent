@@ -1,13 +1,13 @@
 (def clj-version "1.8.0")
 (def ks-version "2.5.1")
 (def tk-version "1.5.3")
-(def tk-jetty-version "2.1.0")
+(def tk-jetty-version "2.2.0")
 (def tk-metrics-version "1.1.0")
 (def logback-version "1.1.9")
 (def rbac-client-version "0.7.1")
 (def dropwizard-metrics-version "3.2.2")
 
-(defproject puppetlabs/clj-parent "1.4.3"
+(defproject puppetlabs/clj-parent "1.4.4-SNAPSHOT"
   ;; Abort when version ranges or version conflicts are detected in
   ;; dependencies. Also supports :warn to simply emit warnings.
   ;; requires lein 2.2.0+.
@@ -37,8 +37,8 @@
                          [ch.qos.logback/logback-access ~logback-version]
                          [net.logstash.logback/logstash-logback-encoder "4.7"]
                          [org.codehaus.janino/janino "2.7.8"]
-                         [com.fasterxml.jackson.core/jackson-core "2.9.0"]
-                         [com.fasterxml.jackson.core/jackson-databind "2.9.0"]
+                         [com.fasterxml.jackson.core/jackson-core "2.9.7"]
+                         [com.fasterxml.jackson.core/jackson-databind "2.9.7"]
                          [org.yaml/snakeyaml "1.18"]
 
                          [org.apache.maven.wagon/wagon-provider-api "2.10"]
